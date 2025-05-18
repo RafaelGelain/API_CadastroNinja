@@ -20,14 +20,15 @@ public class NinjaController {
     }
 
     @PostMapping("/criar")
-    public String criarNinja(){
-        return "Ninja Criado";
+    public NinjaModel criarNinja(@RequestBody NinjaModel ninjaModel){
+        return ninjaService.criarNinja(ninjaModel);
     }
 
     @GetMapping("/listar")
     public List<NinjaModel> listarNinjas(){
         return ninjaService.listarNinjas();
     }
+
     @GetMapping("/listar/{id}")
     public NinjaModel listarNinjasPorID(@PathVariable Long id){
         return ninjaService.listarNinjasPorID(id);
@@ -42,6 +43,4 @@ public class NinjaController {
     public String deletarNinjaPorID(){
         return "Deletado";
     }
-
-
 }
