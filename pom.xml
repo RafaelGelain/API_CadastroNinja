@@ -59,10 +59,10 @@
 		</dependency>
 
 		<dependency>
-			<groupId>me.paulschwarz</groupId>
-			<artifactId>spring-dotenv</artifactId>
-			<version>2.5.4</version>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
 		</dependency>
+
 
 	</dependencies>
 
