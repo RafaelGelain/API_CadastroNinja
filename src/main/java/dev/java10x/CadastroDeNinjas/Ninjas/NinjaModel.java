@@ -10,10 +10,10 @@ import java.util.List;
 
 // Entity transforma uma classe em uma entidade do BD
 @Entity
-@Data
 @Table(name = "tb_cadastro")
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 public class NinjaModel {
 
     @Id
