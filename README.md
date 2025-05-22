@@ -3,7 +3,7 @@
 ## 📑 Descrição
 
 API desenvolvida em Java utilizando Spring Boot para gerenciar um cadastro de ninjas. 
-Permite operações de CRUD (Criar, Ler, Atualizar e Deletar) sobre os registros de ninjas.
+Permite operações de CRUD (Criar, Ler, Atualizar e Deletar) sobre os registros de ninjas / missoes.
 
 ---
 
@@ -16,6 +16,7 @@ Permite operações de CRUD (Criar, Ler, Atualizar e Deletar) sobre os registros
 - ✔️ Lombok (Redução de boilerplate de código)
 - ✔️ H2 Database (Banco de dados em memória)
 - ✔️ Maven
+- ✔️ Swagger ( Documentacao )
 
 ---
 
